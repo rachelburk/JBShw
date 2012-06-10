@@ -310,6 +310,3 @@ class MovieTest
   end 
 end 
 
-
-rachel = DataMovie2.new("/Users/rachelburkhoff/Desktop/ml-100k-1/", 1)
-rachel.runTest(10)
