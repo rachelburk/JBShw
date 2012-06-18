@@ -251,7 +251,7 @@ class MovieData3 < DataMovie2
           x= @movies[@movieFake.index(x[0].to_i)]
           y= hash.values_at(:title)[0]
           
-          if x.name.include?(y)
+          if x.name.downcase.include?(y)
             tempU1.push(x)
           end 
         end 
